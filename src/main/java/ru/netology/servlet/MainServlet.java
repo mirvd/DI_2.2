@@ -2,12 +2,10 @@ package ru.netology.servlet;
 
 import ru.netology.controller.PostController;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import ru.netology.repository.PostRepository;
-import ru.netology.service.PostService;
-
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
 
 public class MainServlet extends HttpServlet {
     private PostController controller;
